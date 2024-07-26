@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #4267b2;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        .sidebar, .content {
+            background-color: white;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .sidebar {
+            width: 25%;
+        }
+        .content {
+            width: 50%;
+        }
+        .post {
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .post:last-child {
+            border-bottom: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My Social Media</h1>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Profile</h2>
+            <p>Name: John Doe</p>
+            <p>Email: john.doe@example.com</p>
+        </div>
+        <div class="content">
+            <h2>Feed</h2>
+            <div class="post">
+                <h3>Post Title 1</h3>
+                <p>This is the content of the first post.</p>
+            </div>
+            <div class="post">
+                <h3>Post Title 2</h3>
+                <p>This is the content of the second post.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
